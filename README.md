@@ -2,6 +2,17 @@
 
 [English](#english) | [中文](#chinese)
 
+## Performance Benchmark 性能基准测试
+
+Compared to traditional code memoization implementation 与传统代码记忆化实现相比：
+
+- **Fast Mode 快速模式**: 2-4x slower 慢2-4倍
+- **Safe Mode 安全模式**: 5-20x slower 慢5-20倍
+
+*Note: The actual performance difference depends on the complexity of method parameters. More complex parameter types will result in larger performance gaps.*
+
+*注意：实际性能差异取决于方法参数的复杂度。参数类型越复杂，性能差距越大。*
+
 <a name="english"></a>
 ## English
 
