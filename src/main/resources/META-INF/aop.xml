@@ -1,0 +1,11 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+    <weaver>
+        <!-- 指定要织入的包 -->
+        <include within="org.example.springmethodcache.*"/>
+    </weaver>
+    <aspects>
+        <!-- 指定切面类 -->
+        <aspect name="org.example.springmethodcache.aspect.MethodCacheAspect"/>
+    </aspects>
+</aspectj>
